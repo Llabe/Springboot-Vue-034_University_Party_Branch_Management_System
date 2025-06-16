@@ -1,0 +1,119 @@
+目录结构:
+├── db
+    ├── springbootx422b.sql
+├── mvnw
+├── pom-war.xml
+├── pom.xml
+├── src
+    ├── main
+        ├── java
+            ├── com
+                ├── SpringbootSchemaApplication.java
+                ├── annotation
+                    ├── APPLoginUser.java
+                    ├── IgnoreAuth.java
+                    ├── LoginUser.java
+                ├── config
+                    ├── AlipayConfig.java
+                    ├── InterceptorConfig.java
+                    ├── MybatisPlusConfig.java
+                ├── controller
+                    ├── AboutusController.java
+                    ├── CommonController.java
+                    ├── ConfigController.java
+                    ├── DangfeijiaonaController.java
+                    ├── DangyuanController.java
+                    ├── DiscusshuodonggonggaoController.java
+                ├── dao
+                    ├── AboutusDao.java
+                    ├── CommonDao.java
+                    ├── ConfigDao.java
+                    ├── DangfeijiaonaDao.java
+                    ├── DangyuanDao.java
+                    ├── DiscusshuodonggonggaoDao.java
+                ├── entity
+                    ├── AboutusEntity.java
+                    ├── ConfigEntity.java
+                    ├── DangfeijiaonaEntity.java
+                    ├── DangyuanEntity.java
+                    ├── DiscusshuodonggonggaoEntity.java
+                    ├── DiscussxuexineirongEntity.java
+                    ├── model
+                        ├── AboutusModel.java
+                        ├── DangfeijiaonaModel.java
+                        ├── DangyuanModel.java
+                        ├── DiscusshuodonggonggaoModel.java
+                        ├── DiscussxuexineirongModel.java
+                        ├── ExampaperModel.java
+                    ├── view
+                        ├── AboutusView.java
+                        ├── DangfeijiaonaView.java
+                        ├── DangyuanView.java
+                        ├── DiscusshuodonggonggaoView.java
+                        ├── DiscussxuexineirongView.java
+                        ├── ExampaperView.java
+                    ├── vo
+                        ├── AboutusVO.java
+                        ├── DangfeijiaonaVO.java
+                        ├── DangyuanVO.java
+                        ├── DiscusshuodonggonggaoVO.java
+                        ├── DiscussxuexineirongVO.java
+                        ├── ExampaperVO.java
+                ├── interceptor
+                    ├── AuthorizationInterceptor.java
+                ├── service
+                    ├── AboutusService.java
+                    ├── CommonService.java
+                    ├── ConfigService.java
+                    ├── DangfeijiaonaService.java
+                    ├── DangyuanService.java
+                    ├── DiscusshuodonggonggaoService.java
+                    ├── impl
+                        ├── AboutusServiceImpl.java
+                        ├── CommonServiceImpl.java
+                        ├── ConfigServiceImpl.java
+                        ├── DangfeijiaonaServiceImpl.java
+                        ├── DangyuanServiceImpl.java
+                        ├── DiscusshuodonggonggaoServiceImpl.java
+                ├── utils
+                    ├── BaiduUtil.java
+                    ├── CommonUtil.java
+                    ├── FileUtil.java
+                    ├── HttpClientUtils.java
+                    ├── JQPageInfo.java
+                    ├── MD5Util.java
+        ├── resources
+            ├── application.yml
+            ├── mapper
+                ├── AboutusDao.xml
+                ├── CommonDao.xml
+                ├── ConfigDao.xml
+                ├── DangfeijiaonaDao.xml
+                ├── DangyuanDao.xml
+                ├── DiscusshuodonggonggaoDao.xml
+            ├── static
+    ├── test
+        ├── test
+
+POM 依赖项:
+org.springframework.boot:spring-boot-starter-web:UNKNOWN
+org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.1
+org.springframework.boot:spring-boot-starter-jdbc:UNKNOWN
+mysql:mysql-connector-java:UNKNOWN
+org.apache.shiro:shiro-spring:1.3.2
+com.baomidou:mybatis-plus:2.3
+com.baomidou:mybatisplus-spring-boot-starter:1.0.5
+com.google.protobuf:protobuf-java:3.10.0
+org.apache.commons:commons-lang3:3.0
+javax.validation:validation-api:2.0.1.Final
+commons-io:commons-io:2.5
+cn.hutool:hutool-all:4.0.12
+com.alibaba:fastjson:1.2.8
+com.microsoft.sqlserver:sqljdbc4:4.0
+com.microsoft.sqlserver:mssql-jdbc:6.2.0.jre8
+com.baidu.aip:java-sdk:4.4.1
+org.apache.poi:poi:3.11
+org.apache.poi:poi-ooxml:3.9
+org.springframework.boot:spring-boot-starter-test:UNKNOWN
+
+说明文档:
