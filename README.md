@@ -1,4 +1,4 @@
-# 高校党支部党务管理系统 / _University_Party_Branch_Management_System
+# 高校党支部党务管理系统 / University_Party_Branch_Management_System
 
 
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-2.7+-brightgreen)
@@ -8,7 +8,8 @@
 ![MyBatis-Plus](https://img.shields.io/badge/MyBatis_Plus-3.5.0-blue)
 ![Shiro](https://img.shields.io/badge/Shiro-1.3.2-green)
 
-> 更多毕设项目可跳转至项目导航栏检索：[毕设项目](http://sysadmin.3vfree.vip)，需要联系博主v：xq-lucky311，q：1047944234. 备注：项目咨询
+> 更多毕设项目可跳转至项目导航栏检索：[毕设项目](http://sysadmin.3vfree.vip)，需要联系博主v：xq-lucky311，q：1047944234. 备注：项目咨询
+
 注：由于前端项目太大，仅上传了后端代码，未包含前端代码...
 
 ## 项目简介  
@@ -45,23 +46,25 @@ src/
 │   │   ├── application.yml          
 │   │   ├── static/
 │   │   │   ├── upload/
+```
 
 ## 使用说明
-开发语言：  
-框架：SpringBoot  
-JDK版本：JDK1.8  
-服务器：Tomcat7  
-数据库：MySQL 5.7  
-数据库工具：Navicat11  
-开发软件：eclipse/myeclipse/idea  
-Maven包：Maven3.3.9  
-浏览器：谷歌浏览器  
-配置环境安装包：[配置环境](链接3) (访问码：pfd5)  
-后台路径地址：localhost:8080/项目名称/admin/dist/index.html  
-前台路径地址：localhost:8080/项目名称/front/dist/index.html  
-管理员账号：admin  
-管理员密码：admin
-```
+1. 开发语言：  
+- 框架：SpringBoot  
+- JDK版本：JDK1.8  
+- 服务器：Tomcat7  
+- 数据库：MySQL 5.7  
+- 数据库工具：Navicat11  
+- 开发软件：eclipse/myeclipse/idea  
+- Maven包：Maven3.3.9  
+
+2. 浏览器：谷歌浏览器
+
+3. 配置环境安装包：[配置环境](链接3) (访问码：pfd5)  
+- 后台路径地址：localhost:8080/项目名称/admin/dist/index.html  
+- 前台路径地址：localhost:8080/项目名称/front/dist/index.html  
+- 管理员账号：admin  
+- 管理员密码：admin
 
 # 项目实际截图：
 ## 登录：
